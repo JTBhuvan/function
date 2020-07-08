@@ -13,4 +13,4 @@ class Car(object):
     def changeGear(self,gearType):
         print("gearChanged")
 audi=Car("a6","red","audi",80)
-print(audi.stop)
+print(audi.stop())
